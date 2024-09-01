@@ -15,6 +15,9 @@ int main()
     // {
     //     cout << v[i].first << " " << v[i].second << endl;
     // }
-    
+    for (auto p : v)
+    {
+        cout << p.first << " " << p.second << endl;
+    }
     return 0;
 }
